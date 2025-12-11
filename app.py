@@ -14,7 +14,7 @@ from collections import OrderedDict
 
 # Step1: Data Ingestion:
 def data_ingestion():
-    return pd.read_csv(r'C:\EnergyConsumption_PredictionModel\train_energy_data.csv')
+    return pd.read_csv(r'https://raw.githubusercontent.com/chandanc5525/EnergyConsumption_PredictionModel/refs/heads/main/train_energy_data.csv')
 
 # Step2: Data Exploration
 def descriptive_stats(df):
