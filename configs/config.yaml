@@ -1,0 +1,4 @@
+data_path: "https://raw.githubusercontent.com/chandanc5525/EnergyConsumption_PredictionModel/refs/heads/main/train_energy_data.csv"
+target_col: "Energy Consumption"
+test_size: 0.3
+random_state: 10
