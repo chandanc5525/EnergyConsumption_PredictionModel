@@ -1,0 +1,72 @@
+Metadata-Version: 2.4
+Name: energyconsumption-predictionmodel
+Version: 1.0.0
+Summary: Energy Consumption Prediction Model
+Author-email: chandan chaudhari <chaudhari.chandan22@gmail.com>
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: catboost>=1.2.10
+Requires-Dist: chandan-aiops>=1.5.5
+Requires-Dist: dagshub>=0.6.8
+Requires-Dist: docker>=7.1.0
+Requires-Dist: dvc>=3.67.0
+Requires-Dist: fastapi>=0.135.2
+Requires-Dist: feast>=0.61.0
+Requires-Dist: flaml[automl]>=2.5.0
+Requires-Dist: flask>=3.1.3
+Requires-Dist: gradio>=6.9.0
+Requires-Dist: imblearn>=0.0
+Requires-Dist: jinja2>=3.1.6
+Requires-Dist: matplotlib>=3.10.8
+Requires-Dist: mlflow>=3.10.1
+Requires-Dist: numpy>=2.4.3
+Requires-Dist: optuna>=4.8.0
+Requires-Dist: pandas>=2.3.3
+Requires-Dist: scikit-learn>=1.8.0
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: streamlit>=1.55.0
+Requires-Dist: xgboost>=2.1.4
+Dynamic: license-file
+
+# **Energy Consumption Prediction Model**
+
+--- 
+
+## **Project Overview**
+
+This project focuses on analyzing electricity consumption patterns in Tétouan, a city located in northern Morocco. The study leverages real-world data collected from the electricity distribution network to understand consumption behavior, identify trends, and support data-driven decision-making for energy management.
+
+Tétouan has experienced steady population growth (~1.96% annually since 2014), which directly impacts energy demand. Given Morocco’s relatively low per capita energy consumption and dependence on imported oil products, efficient energy usage and forecasting are critical.
+
+
+```
+Note: 
+
+The dataset is obtained from the Supervisory Control and Data Acquisition (SCADA) system operated by Amendis, responsible for electricity and water distribution in Tétouan since 2002.
+```
+
+---
+
+```
+Research Article:
+Salam, Abdul Rahim and Abdelaaziz El Hibaoui. “Comparison of Machine Learning Algorithms for the Power Consumption Prediction : - Case Study of Tetouan city –.” 2018 6th International Renewable and Sustainable Energy Conference (IRSEC) (2018): 1-5. 
+```
+
+---
+
+![alt text](EnergyConsumption_PredictionModel_Poster.png)
+
+---
+
+## **Contributions are welcome...** 
+
+Feel free to:
+
+- Fork the repository
+
+- Create a feature branch
+
+- Submit a pull request
+
+---

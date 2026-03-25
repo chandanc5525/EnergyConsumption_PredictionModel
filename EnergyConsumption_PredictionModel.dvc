@@ -1,0 +1,5 @@
+outs:
+    - md5: f31eefcc3e28567bd8372b90181fbc31.dir
+      size: 2570688
+      path: EnergyConsumption_PredictionModel
+      nfiles: 47

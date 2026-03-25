@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+# Data files
+*.csv
+*.xlsx
+*.parquet
+
+# Models
+*.pkl
+*.joblib
+*.h5
+
+# Artifacts
+artifacts/
+models/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+env/
+/data
+/artifacts
+
+artifacts/
+*.pkl
+=======
+EnergyConsumption_PredictionModel
+>>>>>>> 5f6a32790a52184aee01d7cc29aae912bb04398c

@@ -1,0 +1,29 @@
+[2026-03-25 05:00:40,742] 13 root - INFO - Pipeline started
+[2026-03-25 05:00:40,743] 27 root - INFO - Data ingestion started
+[2026-03-25 05:00:40,815] 34 root - INFO - Dataset shape: (52416, 9)
+[2026-03-25 05:00:41,429] 50 root - INFO - Data transformation started
+[2026-03-25 05:01:37,380] 13 root - INFO - Pipeline started
+[2026-03-25 05:01:37,381] 27 root - INFO - Data ingestion started
+[2026-03-25 05:01:37,450] 34 root - INFO - Dataset shape: (52416, 9)
+[2026-03-25 05:01:38,091] 50 root - INFO - Data transformation started
+[2026-03-25 05:01:39,693] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-03-25 05:01:39,701] 107 dagshub - INFO - Accessing as chandanc5525
+[2026-03-25 05:01:40,811] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/chandanc5525/EnergyConsumption_PredictionModel "HTTP/1.1 200 OK"
+[2026-03-25 05:01:41,933] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-03-25 05:01:41,937] 107 dagshub - INFO - Initialized MLflow to track repo "chandanc5525/EnergyConsumption_PredictionModel"
+[2026-03-25 05:01:41,938] 107 dagshub - INFO - Repository chandanc5525/EnergyConsumption_PredictionModel initialized!
+[2026-03-25 05:03:43,419] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=7, read=6, redirect=7, status=7)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='dagshub.com', port=443): Read timed out. (read timeout=120)")': /chandanc5525/EnergyConsumption_PredictionModel.mlflow/api/2.0/mlflow/experiments/get-by-name?experiment_name=Energy-ML
+[2026-03-25 05:03:45,373] 41 root - INFO - MLflow + DagsHub initialized
+[2026-03-25 05:03:45,374] 104 root - INFO - Model training started
+[2026-03-25 05:03:45,389] 119 root - INFO - Training model: DecisionTree
+[2026-03-25 05:04:10,860] 144 root - INFO - DecisionTree score: 0.90449957304895
+[2026-03-25 05:04:10,860] 119 root - INFO - Training model: RandomForest
+[2026-03-25 05:57:09,120] 144 root - INFO - RandomForest score: 0.9456878968469073
+[2026-03-25 05:57:09,122] 119 root - INFO - Training model: ExtraTrees
+[2026-03-25 06:37:35,888] 144 root - INFO - ExtraTrees score: 0.9425432477162665
+[2026-03-25 06:37:35,889] 119 root - INFO - Training model: XGBoost
+[2026-03-25 06:38:38,771] 144 root - INFO - XGBoost score: 0.944287609687867
+[2026-03-25 06:38:38,773] 119 root - INFO - Training model: CatBoost
+[2026-03-25 06:40:32,815] 144 root - INFO - CatBoost score: 0.8984654207690309
+[2026-03-25 06:40:33,134] 156 root - INFO - Best Model: RandomForest | Score: 0.9456878968469073
+[2026-03-25 06:40:33,175] 26 root - INFO - Pipeline completed | Score: ('RandomForest', 0.9456878968469073)

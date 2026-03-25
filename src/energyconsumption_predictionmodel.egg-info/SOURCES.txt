@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/exception.py
+src/logger.py
+src/utils.py
+src/components/data_ingestion.py
+src/components/data_transformation.py
+src/components/model_trainer.py
+src/energyconsumption_predictionmodel.egg-info/PKG-INFO
+src/energyconsumption_predictionmodel.egg-info/SOURCES.txt
+src/energyconsumption_predictionmodel.egg-info/dependency_links.txt
+src/energyconsumption_predictionmodel.egg-info/requires.txt
+src/energyconsumption_predictionmodel.egg-info/top_level.txt

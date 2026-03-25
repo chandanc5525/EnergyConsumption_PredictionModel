@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/chandanc5525/energyconsumption_predictionmodel.dvc
+    auth = basic
+    user = chandanc5525
+    password = 3128c0dce58f75fc2f7b4d09916e514432e729d8
+=======
+
+>>>>>>> 5f6a32790a52184aee01d7cc29aae912bb04398c

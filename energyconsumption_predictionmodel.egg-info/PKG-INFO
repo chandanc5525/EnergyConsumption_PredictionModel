@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: energyconsumption-predictionmodel
+Version: 1.0.0
+Summary: Energy Consumption Prediction Model
+Author-email: chandan chaudhari <chaudhari.chandan22@gmail.com>
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: chandan-aiops>=1.5.5
+Requires-Dist: dagshub>=0.6.8
+Requires-Dist: docker>=7.1.0
+Requires-Dist: dvc>=3.67.0
+Requires-Dist: fastapi>=0.135.2
+Requires-Dist: feast>=0.61.0
+Requires-Dist: flaml[automl]>=2.5.0
+Requires-Dist: flask>=3.1.3
+Requires-Dist: gradio>=6.9.0
+Requires-Dist: imblearn>=0.0
+Requires-Dist: jinja2>=3.1.6
+Requires-Dist: matplotlib>=3.10.8
+Requires-Dist: mlflow>=3.10.1
+Requires-Dist: numpy>=2.4.3
+Requires-Dist: pandas>=2.3.3
+Requires-Dist: scikit-learn>=1.8.0
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: streamlit>=1.55.0
+Dynamic: license-file
+
+# EnergyConsumption_PredictionModel

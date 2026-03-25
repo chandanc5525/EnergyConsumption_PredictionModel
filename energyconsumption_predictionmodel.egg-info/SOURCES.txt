@@ -1,0 +1,9 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+energyconsumption_predictionmodel.egg-info/PKG-INFO
+energyconsumption_predictionmodel.egg-info/SOURCES.txt
+energyconsumption_predictionmodel.egg-info/dependency_links.txt
+energyconsumption_predictionmodel.egg-info/requires.txt
+energyconsumption_predictionmodel.egg-info/top_level.txt
