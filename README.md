@@ -28,6 +28,13 @@ Salam, Abdul Rahim and Abdelaaziz El Hibaoui. “Comparison of Machine Learning 
 
 ---
 
+## **Monitoring Pipeline: Glimpses**
+
+![alt text](Metrics_Monitoring_@ProductionPipeline.png)
+
+![alt text](Parameters_Monitoring.png)
+
+---
 ## **Contributions are welcome...** 
 
 Feel free to:
